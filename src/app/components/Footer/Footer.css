@@ -1,0 +1,12 @@
+.Footer {
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Footer-copiright {
+  color: #abacb6;
+  font-size: 12px; 
+}

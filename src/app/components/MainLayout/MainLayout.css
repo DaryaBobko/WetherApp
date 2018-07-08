@@ -1,0 +1,96 @@
+.Main {
+  overflow-y: auto;
+  height: 100vh;
+  background-position: center;
+  background-image: url(../../../public/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Main-wrapperContent {
+  height: 100%;
+  margin-bottom: -40px;
+}
+
+.Main-widthContent {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.Main-line {
+  height: 1px;
+  background-color: #abacb6;
+}
+
+.Main-heder {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Main-logo {
+  margin-right: 50px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.Main-Title {
+  min-width: 100px;
+  margin-left: 20px;
+  color: #abacb6;
+  font-size: 14px;
+  text-align: right;
+}
+
+.Main-background {
+  height: 100%;
+  background-color: #0000007a;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)); 
+}
+
+.WrapperOptionMain {
+  height: 60px;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+
+.Container {
+  padding: 50px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.2), 0 2px 30px 0 rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 660px;
+  height: 430px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  color: #373b4a;
+  letter-spacing: 1.5px;
+}
+
+.Container > div {
+  margin: 3px 0;
+}
+
+.Temp {
+  margin-bottom: 15px !important;
+}
+
+.description {
+  text-transform: uppercase;
+  margin-top: 15px !important;
+  font-size: 14px;
+}
+
+.date {
+  color: #72757f;
+  text-transform: uppercase;
+  margin-top: 20px !important;
+  font-size: 12px;
+}

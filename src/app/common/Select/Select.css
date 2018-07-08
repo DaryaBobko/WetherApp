@@ -1,0 +1,80 @@
+
+.Select {
+  resize: none;
+  width: 100%;
+}
+
+.Select > div:first-child {
+  height: 60px;
+  border: none;
+}
+
+.Select > div:last-child {
+  width: 100%;
+}
+
+.Select > div > span > div:first-child {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #0b1047 !important;
+  top: 14px;
+  left: 10px;
+  }
+
+.Select > div > span > div:last-child {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #0b1047 !important;
+  padding: 15px 20px 13px;
+  font-weight: 400 !important;
+  }
+
+.Select > div > span > span:last-child {
+  margin-right: 15px;
+}
+
+
+.OptionDefault {
+  z-index: 4;
+  background-color: #ffffff !important;
+}
+
+.OptionDefault:hover {
+  background-color: #f8f9fb !important;
+}
+
+.Focus > div:first-child {
+  height: 68px;
+  background-color: none;
+}
+
+.Focus {
+  border: solid 1px #10c8d2;
+}
+
+.Focus > div:first-child {
+  border: none;
+}
+
+.Focus:hover {
+  border: solid 1px #10c8d2;
+}
+
+.Focus > div:first-child {
+  border: none;
+}
+
+.Focus > div:last-child {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.Select.is-focused:not(.is-open)>.Select-control {
+  border-color: #bbbdcb !important;
+  box-shadow: none !important;
+}
+
+.Select-option.is-selected {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}

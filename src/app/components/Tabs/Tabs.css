@@ -1,0 +1,58 @@
+.Tabs-Main {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #dcdde6;
+}
+
+.Tabs-Main:hover > a {
+  color: #abacb6;
+  transition: color 2s;
+}
+
+.Tabs-ListElementActive {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 100px;
+  width: 21.3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #128c93;
+  color: #ffffff !important;
+}
+
+a:hover{
+  color: #ffffff !important;
+}
+
+a:focus {
+  border-bottom: 1px solid #128c93;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.Tabs-ListElement {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 100px;
+  width: 21.3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #e6e7ed;
+  color: #dcdde6;
+}
+
